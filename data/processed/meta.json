@@ -1,0 +1,358 @@
+{
+  "built_at_utc": "2026-11-03T22:37:23+00:00",
+  "date_min": "2012-07-01",
+  "date_max": "2025-05-31",
+  "years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "partial_years": [
+    2012,
+    2025
+  ],
+  "boroughs": [
+    "BRONX",
+    "BROOKLYN",
+    "MANHATTAN",
+    "QUEENS",
+    "STATEN ISLAND",
+    "Unknown"
+  ],
+  "has_filled_borough": false,
+  "factors": [
+    "Driver Inattention/Distraction",
+    "Failure to Yield Right-of-Way",
+    "Following Too Closely",
+    "Other Vehicular",
+    "Backing Unsafely",
+    "Passing or Lane Usage Improper",
+    "Passing Too Closely",
+    "Turning Improperly",
+    "Fatigued/Drowsy",
+    "Unsafe Lane Changing",
+    "Traffic Control Disregarded",
+    "Driver Inexperience",
+    "Unsafe Speed",
+    "Alcohol Involvement",
+    "Lost Consciousness",
+    "Pavement Slippery",
+    "Reaction to Uninvolved Vehicle",
+    "Prescription Medication",
+    "View Obstructed/Limited",
+    "Outside Car Distraction",
+    "Oversized Vehicle",
+    "Pedestrian/Bicyclist/Other Pedestrian Error/Confusion",
+    "Aggressive Driving/Road Rage",
+    "Physical Disability",
+    "Passenger Distraction",
+    "Brakes Defective",
+    "Fell Asleep",
+    "Obstruction/Debris",
+    "Glare",
+    "Illness",
+    "Failure to Keep Right",
+    "Steering Failure",
+    "Other Electronic Device",
+    "Tire Failure/Inadequate",
+    "Pavement Defective",
+    "Animals Action",
+    "Reaction to Other Uninvolved Vehicle",
+    "Lane Marking Improper/Inadequate",
+    "Drugs (illegal)",
+    "Driverless/Runaway Vehicle",
+    "Traffic Control Device Improper/Non-Working",
+    "Accelerator Defective",
+    "Cell Phone (hand-Held)",
+    "Cell Phone (hands-free)",
+    "Tow Hitch Defective",
+    "Other Lighting Defects",
+    "Tinted Windows",
+    "Headlights Defective",
+    "Using On Board Navigation Device",
+    "Vehicle Vandalism",
+    "Eating or Drinking",
+    "Shoulders Defective/Improper",
+    "Windshield Inadequate",
+    "Texting",
+    "Listening/Using Headphones"
+  ],
+  "vehicle_groups": [
+    "Passenger car / Sedan",
+    "SUV / Station wagon",
+    "Taxi / For-hire",
+    "Van",
+    "Truck / Commercial",
+    "Bus",
+    "Motorcycle / Moped",
+    "Bicycle / E-bike / E-scooter",
+    "Ambulance / Fire / Emergency",
+    "Other vehicle type"
+  ],
+  "quality": {
+    "rows_raw": 2180794,
+    "duplicate_collision_ids_dropped": 0,
+    "rows_dropped_bad_date": 0,
+    "rows_unparseable_time": 0,
+    "borough_missing_or_unrecognised": 672568,
+    "borough_missing_pct": 30.84,
+    "borough_missing_pct_by_year": {
+      "2012": 22.8,
+      "2013": 23.4,
+      "2014": 24.1,
+      "2015": 24.9,
+      "2016": 33.3,
+      "2017": 38.1,
+      "2018": 35.6,
+      "2019": 35.2,
+      "2020": 34.7,
+      "2021": 34.7,
+      "2022": 33.8,
+      "2023": 32.0,
+      "2024": 28.6,
+      "2025": 20.6
+    },
+    "coords_missing": 239992,
+    "coords_present_but_invalid": 5737,
+    "coords_valid": 1935065,
+    "coords_valid_pct": 88.73,
+    "persons_injured_missing": 18,
+    "persons_killed_missing": 31,
+    "factor1_usable_pct": 66.03,
+    "factor1_unspecified_or_missing_pct": 33.97,
+    "factor_numeric_junk_labels": 2,
+    "n_factor_categories": 55,
+    "vehicle_other_group_share_pct": 1.74,
+    "vehicle_any_group_pct": 98.89,
+    "rows_final": 2180794,
+    "crashes_per_year": {
+      "2012": 100545,
+      "2013": 203742,
+      "2014": 206046,
+      "2015": 217698,
+      "2016": 229831,
+      "2017": 231007,
+      "2018": 231564,
+      "2019": 211486,
+      "2020": 112917,
+      "2021": 110557,
+      "2022": 103886,
+      "2023": 96606,
+      "2024": 91297,
+      "2025": 33612
+    }
+  },
+  "vehicle_audit_top40": [
+    {
+      "raw": "Sedan",
+      "count": 1118871,
+      "group": "Passenger car / Sedan"
+    },
+    {
+      "raw": "Station Wagon/Sport Utility Vehicle",
+      "count": 889044,
+      "group": "SUV / Station wagon"
+    },
+    {
+      "raw": "PASSENGER VEHICLE",
+      "count": 769982,
+      "group": "Passenger car / Sedan"
+    },
+    {
+      "raw": "SPORT UTILITY / STATION WAGON",
+      "count": 337507,
+      "group": "SUV / Station wagon"
+    },
+    {
+      "raw": "UNKNOWN",
+      "count": 105449,
+      "group": "(unknown - no group)"
+    },
+    {
+      "raw": "Taxi",
+      "count": 96298,
+      "group": "Taxi / For-hire"
+    },
+    {
+      "raw": "Pick-up Truck",
+      "count": 73956,
+      "group": "Truck / Commercial"
+    },
+    {
+      "raw": "4 dr sedan",
+      "count": 73530,
+      "group": "Passenger car / Sedan"
+    },
+    {
+      "raw": "TAXI",
+      "count": 60768,
+      "group": "Taxi / For-hire"
+    },
+    {
+      "raw": "Box Truck",
+      "count": 57423,
+      "group": "Truck / Commercial"
+    },
+    {
+      "raw": "Bike",
+      "count": 53677,
+      "group": "Bicycle / E-bike / E-scooter"
+    },
+    {
+      "raw": "VAN",
+      "count": 49693,
+      "group": "Van"
+    },
+    {
+      "raw": "OTHER",
+      "count": 45943,
+      "group": "Other vehicle type"
+    },
+    {
+      "raw": "Bus",
+      "count": 45420,
+      "group": "Bus"
+    },
+    {
+      "raw": "LARGE COM VEH(6 OR MORE TIRES)",
+      "count": 28596,
+      "group": "Truck / Commercial"
+    },
+    {
+      "raw": "SMALL COM VEH(4 TIRES) ",
+      "count": 26679,
+      "group": "Truck / Commercial"
+    },
+    {
+      "raw": "BUS",
+      "count": 25950,
+      "group": "Bus"
+    },
+    {
+      "raw": "PICK-UP TRUCK",
+      "count": 22939,
+      "group": "Truck / Commercial"
+    },
+    {
+      "raw": "Tractor Truck Diesel",
+      "count": 22452,
+      "group": "Truck / Commercial"
+    },
+    {
+      "raw": "LIVERY VEHICLE",
+      "count": 19426,
+      "group": "Taxi / For-hire"
+    },
+    {
+      "raw": "BICYCLE",
+      "count": 19331,
+      "group": "Bicycle / E-bike / E-scooter"
+    },
+    {
+      "raw": "Van",
+      "count": 19104,
+      "group": "Van"
+    },
+    {
+      "raw": "Motorcycle",
+      "count": 17641,
+      "group": "Motorcycle / Moped"
+    },
+    {
+      "raw": "E-Bike",
+      "count": 11076,
+      "group": "Bicycle / E-bike / E-scooter"
+    },
+    {
+      "raw": "Dump",
+      "count": 8621,
+      "group": "Truck / Commercial"
+    },
+    {
+      "raw": "MOTORCYCLE",
+      "count": 7902,
+      "group": "Motorcycle / Moped"
+    },
+    {
+      "raw": "Ambulance",
+      "count": 7781,
+      "group": "Ambulance / Fire / Emergency"
+    },
+    {
+      "raw": "E-Scooter",
+      "count": 7493,
+      "group": "Bicycle / E-bike / E-scooter"
+    },
+    {
+      "raw": "Convertible",
+      "count": 7007,
+      "group": "Passenger car / Sedan"
+    },
+    {
+      "raw": "Moped",
+      "count": 6618,
+      "group": "Motorcycle / Moped"
+    },
+    {
+      "raw": "Flat Bed",
+      "count": 5550,
+      "group": "Truck / Commercial"
+    },
+    {
+      "raw": "PK",
+      "count": 5390,
+      "group": "Other vehicle type"
+    },
+    {
+      "raw": "Garbage or Refuse",
+      "count": 4983,
+      "group": "Truck / Commercial"
+    },
+    {
+      "raw": "2 dr sedan",
+      "count": 4823,
+      "group": "Passenger car / Sedan"
+    },
+    {
+      "raw": "Carry All",
+      "count": 4324,
+      "group": "Other vehicle type"
+    },
+    {
+      "raw": "AMBULANCE",
+      "count": 4136,
+      "group": "Ambulance / Fire / Emergency"
+    },
+    {
+      "raw": "Tractor Truck Gasoline",
+      "count": 3537,
+      "group": "Truck / Commercial"
+    },
+    {
+      "raw": "Tow Truck / Wrecker",
+      "count": 3001,
+      "group": "Truck / Commercial"
+    },
+    {
+      "raw": "Chassis Cab",
+      "count": 1928,
+      "group": "Other vehicle type"
+    },
+    {
+      "raw": "Motorscooter",
+      "count": 1893,
+      "group": "Motorcycle / Moped"
+    }
+  ]
+}
